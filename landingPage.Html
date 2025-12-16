@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Fique Arnaud | Software Developer</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #0f172a;          /* slate-900 */
+      --card: #111827;        /* gray-900 */
+      --text: #e5e7eb;        /* gray-200 */
+      --muted: #9ca3af;       /* gray-400 */
+      --accent: #38bdf8;      /* sky-400 */
+      --accent-soft: #0ea5e9; /* sky-500 */
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      background: linear-gradient(135deg, #020617, #0f172a);
+      color: var(--text);
+      line-height: 1.6;
+    }
+
+    a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    header {
+      padding: 4rem 1.5rem;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 2.8rem;
+      font-weight: 700;
+      letter-spacing: -1px;
+    }
+
+    header p.tagline {
+      margin-top: 1rem;
+      font-size: 1.2rem;
+      color: var(--muted);
+      max-width: 720px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    nav {
+      margin-top: 2rem;
+    }
+
+    nav a {
+      margin: 0 1rem;
+      font-weight: 500;
+      color: var(--text);
+    }
+
+    main {
+      max-width: 1000px;
+      margin: 0 auto;
+      padding: 2rem 1.5rem 4rem;
+    }
+
+    section {
+      margin-bottom: 3rem;
+      background: rgba(17, 24, 39, 0.75);
+      border-radius: 16px;
+      padding: 2.5rem;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+    }
+
+    section h2 {
+      font-size: 1.8rem;
+      margin-bottom: 1rem;
+      color: var(--accent);
+    }
+
+    section p {
+      color: var(--text);
+      max-width: 850px;
+    }
+
+    .portfolio-links a {
+      display: block;
+      margin: 0.75rem 0;
+      padding: 0.9rem 1.2rem;
+      background: linear-gradient(135deg, #020617, #020617);
+      border: 1px solid #1f2933;
+      border-radius: 12px;
+      font-weight: 500;
+      transition: all 0.25s ease;
+    }
+
+    .portfolio-links a:hover {
+      background: linear-gradient(135deg, #020617, #0f172a);
+      border-color: var(--accent);
+      transform: translateY(-2px);
+    }
+
+    footer {
+      text-align: center;
+      padding: 2rem 1rem;
+      color: var(--muted);
+      font-size: 0.9rem;
+    }
+
+    @media (max-width: 640px) {
+      header h1 {
+        font-size: 2.2rem;
+      }
+
+      section {
+        padding: 1.8rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Pacifique Arnaud</h1>
+    <p class="tagline">
+      Software Developer & Emerging AI Engineer passionate about building practical, impactful digital systems for Africa and beyond.
+    </p>
+    <nav>
+      <a href="#bio">Bio</a>
+      <a href="#portfolio">Portfolio</a>
+      <a href="elevator-pitch.html">Elevator Pitch</a>
+    </nav>
+  </header>
+
+  <main>
+
+    <section id="bio">
+      <h2>Bio</h2>
+      <p>
+        I am a software developer with a strong interest in full‑stack web development, AI‑powered systems, and real‑world problem solving. 
+        I have worked with technologies such as PHP (Laravel), React, Node.js, MySQL, and Tailwind CSS to build systems including inventory management platforms, recruitment systems, and authentication solutions.
+      </p>
+      <br />
+      <p>
+        My long‑term goal is to design intelligent, scalable applications that address local and global challenges — from smart agriculture and environmental monitoring to language technology and digital infrastructure in Rwanda.
+      </p>
+    </section>
+
+    <section id="portfolio">
+      <h2>Portfolio</h2>
+      <p>
+        Below are required links related to my Phase 2 team project. Additional projects will be added as my portfolio grows.
+      </p>
+
+      <div class="portfolio-links">
+        <a href="https://www.youtube.com/" target="_blank">
+          ▶ Phase 2 Project Video (YouTube)
+        </a>
+        <a href="#" target="_blank">
+          📄 Phase 2 Project Slide Deck (PDF)
+        </a>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    © 2025 Fique Arnaud · all rights reserved
+  </footer>
+
+</body>
+</html>
